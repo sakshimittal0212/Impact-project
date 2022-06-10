@@ -1,0 +1,24 @@
+{
+  "name": "student-api",
+  "version": "1.0.0",
+  "description": "Simple app for students results",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.16.4",
+    "fast-csv": "^4.3.6",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.1",
+    "streamifier": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
